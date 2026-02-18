@@ -1,0 +1,7 @@
+hidden_dim: [128, 256, 512, 1024]
+l2: [0, 0.001, 0.01, 0.1]
+spectral_radius: [0.8, 0.9, 0.99]
+input_scale: [0.01, 0.1, 1, 10, 25]
+bias_scale: [0.01, 0.1, 1, 10, 25]
+scale_mode: ["norm"]
+washout: [512]

@@ -1,0 +1,25 @@
+ESN Best Configuration
+======================
+
+Search trial: 201
+Train MSE: 0.00017375 +/- 0.00001679
+Val MSE: 0.00018814 +/- 0.00002544
+Retrain MSE: 0.00017533 +/- 0.00001755
+Test MSE: 0.00011468 +/- 0.00001397
+
+Hyperparameters
+---------------
+hidden_dim: 1024
+l2: 0.1
+spectral_radius: 0.99
+input_scale: 25
+bias_scale: 0.01
+scale_mode: norm
+washout: 512
+
+Parameter tensor shapes
+-----------------------
+Win: (1024, 1)
+W: (1024, 1024)
+b: (1024,)
+Wout: (1025, 1)

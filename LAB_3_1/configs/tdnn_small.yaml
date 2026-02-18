@@ -1,0 +1,30 @@
+conv_channels:
+  - [8, 16]
+  - [16, 32]
+  - [32, 64]
+  - [64, 128]
+kernel_sizes:
+  - [3, 5]
+  - [3, 7]
+  - [5, 7]
+  - [5, 9]
+  - [7, 9]
+dilations:
+  - [1, 2]
+  - [1, 4]
+  - [2, 3]
+  - [3, 3]
+  - [2, 4]
+  - [3, 4]
+strides:
+  - [1, 1]
+activations:
+  - ["ReLU", "ReLU"]
+  - ["Tanh", "Tanh"]
+  - ["Sigmoid", "Sigmoid"]
+fc_hidden: [32]
+lr: [0.01, 0.1, 0.2, 0.5]
+weight_decay: [0.0, 0.00001, 0.0001, 0.001]
+epochs: [50, 100, 250, 350]
+patience: [15, 30, 50, 100]
+min_delta: [1e-15, 1e-10, 1e-7, 1e-5, 1e-3]

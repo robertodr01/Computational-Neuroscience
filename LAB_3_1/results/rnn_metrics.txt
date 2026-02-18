@@ -1,0 +1,7 @@
+RNN Summary
+-----------
+
+validation_mse: 0.00205575
+retrain_mse: 0.00116932
+test_mse: 0.00109414
+search_trials: 75.00000000

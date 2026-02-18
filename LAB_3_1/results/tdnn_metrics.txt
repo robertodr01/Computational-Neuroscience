@@ -1,0 +1,7 @@
+TDNN Summary
+------------
+
+validation_mse: 0.00042451
+retrain_mse: 0.00007036
+test_mse: 0.00018646
+search_trials: 500.00000000
